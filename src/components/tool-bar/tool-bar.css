@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  background-color: #3dc2ff;
+  color: #fff;
+  padding: 0 20px;
+}
+
+:host(.mobile) {
+  justify-content: center;
+}
